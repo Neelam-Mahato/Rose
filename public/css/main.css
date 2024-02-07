@@ -1,0 +1,176 @@
+body{
+    background: #fadede;
+    margin-top: 50px;
+}
+
+.container{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    left: 15%;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    color: #FE7696;
+    font-size: px;
+}
+
+.letter{
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+}
+
+.rose{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    animation: yidon 5s infinite;
+    transform: translateY(40%);
+}
+
+.petal{
+    width: 60px;
+  height: 60px;
+  background: #f95379;
+  border-radius: 3px 77%;
+  position: absolute;
+  box-shadow: 0 0 10px #D1123F;
+  transform: rotate(3deg);
+  left: -8px;
+				
+}
+
+.petal:nth-child(2){
+    transform-origin: right bottom;
+  transform: rotate(83deg);
+  background: #f95379;
+  box-shadow: 0 0 10px #D1123F;
+  z-index: 1;
+  left: -1px;
+}
+
+.petal:nth-child(3){
+    width: 50px;
+  height: 50px;
+  left: 17px;
+  top: -1px;
+  z-index: 1;
+  background: #f03a64;
+  transform: rotate(208deg);
+
+}
+
+.petal:nth-child(4){
+    transform: rotate(52deg);
+    width: 50px;
+    height: 50px;
+    left: 16px;
+    top: 10px;
+    z-index: 1;
+    background: #f03a64;
+    transform-origin: bottom right;
+}
+
+.petal:nth-child(5){
+    width: 55px;
+    height: 55px;
+    border-radius: 2px 77%;
+    left: 11px;
+    top: -21px;
+    background: #cc2e56;
+    z-index: -1;
+    transform: rotate(12deg);
+}
+
+.petal:nth-child(6){
+    width: 55px;
+    height: 55px;
+    border-radius: 2px 77%;
+    left: 19px;
+    top: -47px;
+    background: #d1123f;
+    transform: rotate(250deg);
+    transform-origin: right;
+}
+.petal:nth-child(7){
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 77%;
+    left: 35px;
+    top: -21px;
+    background: #d1123f;
+    transform: rotate(44deg);
+    transform-origin: right;
+    z-index: -2;
+}
+
+.petal:nth-child(8){
+    width: 60px;
+    height: 60px;
+    left: -7px;
+    top: 16px;
+    z-index: 1;
+    background: #f03a64;
+    transform: rotate(164deg); 
+}
+
+.petal:nth-child(9){
+    transform: rotate(108deg);
+    width: 60px;
+    height: 60px;
+    left: -7px;
+    top: 4px;
+    z-index: 1;
+    background: #f03a64;
+    transform-origin: bottom right;
+}
+
+.leaf{
+    position: absolute;
+    top: 134px;
+    left: -115px;
+}
+
+.stem{
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border: 8px solid #8ac78a;
+    border-color: #77a377 transparent transparent transparent;
+    border-radius: 50% 50%;
+    transform: rotate(107deg);
+}
+
+.leafs{
+    width: 50px;
+    height: 40px;
+    border-radius: 0px 50%;
+    background: #77a377;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    z-index: 49;
+}
+
+.leafs:nth-child(2){
+    width: 40px;
+    height: 20px;
+    top: 40px;
+    left: 140px;
+    transform: rotate(120deg);
+}
+
+.change-dir{
+    right: -55px;
+    transform: rotate(31deg);
+    top: 170px;
+}
+h2{
+    color: #FE7696;
+    font-size: 40px;
+    font-family: cursive;
+}
